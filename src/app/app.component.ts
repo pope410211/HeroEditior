@@ -64,7 +64,7 @@ import { HeroService } from './hero.services';
 			border-radius: 4px 0 0 4px;
 		}
 	`],
-	providers: [HeroService];
+	providers: [HeroService]
 })
 export class AppComponent implements OnInit {
 	title = 'Tour of Heroes';
